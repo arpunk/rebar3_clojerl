@@ -4,7 +4,7 @@
 
 -define(PROVIDER, compile).
 -define(NAMESPACE, clojerl).
--define(DEPS, [{default, app_discovery}, {default, compile}]).
+-define(DEPS, [{default, compile}]).
 -define(DEFAULT_SRC_DIRS, ["src"]).
 
 -type filename() :: filename:filename_all().
